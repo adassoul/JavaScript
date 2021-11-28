@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "roboto", "sans-serif";
+    background-color: f7f6ff
+}
+
+h2{
+    margin: 16px;
+}
+
+.container{
+    margin-top: 100px;
+    padding: 32px;
+}
+
+.select-box{
+    display: flex;
+    width: 400px;
+    flex-direction: column ;
+}
+
+.select-box .selected{
+    background-color: #2f3640;
+    color: #f5f6fa;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    order: -2;
+}
+
+.selected::after{
+    content: "";
+    background: url("img/toppng.com-white-drop-down-arrow-423x265.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 12px;
+
+    transition: all 1s;
+}
+
+.select-box .options-container{
+    background-color: #2f3640;
+    color: #f5f6fa;
+    max-height: 0px;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+
+    order: -1;
+}
+
+.select-box .options-container.active{
+    max-height: 240px;
+    opacity: 1;
+    overflow-y: scroll;
+}
+
+.select-box .options-container.active + .selected::after{
+    transform: rotate(180deg);
+    top: -12px;
+}
+
+.select-box .options-container::-webkit-scrollbar{
+    width: 8px;
+    background-color: #0B0A0A ;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb{
+    height: 1px;
+    background-color: #525861;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .option,
+.selected{
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.select-box .option:hover{
+    background-color: #414b57;
+}
+
+.select-box label{
+    cursor:pointer;
+}
+
+.select-box .option .radio{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

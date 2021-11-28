@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+	<link rel="stylesheet" href="/animsition/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles.css?v=13" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="canonical" href="https://wwweeebbb.com/" />
+	<link rel="amphtml" href="https://wwweeebbb.com/amp.html">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="/animsition/jquery.animsition.min.js"></script>
+	<script src="/js/jssor.js"></script>
+    <script src="/js/jssor.slider.js"></script>
+    <script SRC="/js/script.js?v=86"></script>
+    <title>WWWEEEBBB - The Web Journal</title>
+	<meta name="apple-mobile-web-app-title" content="WWWEEEBBB" />
+	<meta name="description" content="Too many digital projects fail because of the absence of a deliberate internet marketing strategy or because of deficient implementation." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://wwweeebbb.com/" />
+	<meta property="og:title" content="WWWEEEBBB.com - The Key to Online Success!" />
+	<meta property="og:image" content="https://wwweeebbb.com/images/landscape/04.png" />
+	<meta property="og:description" content="Too many digital projects fail because of the absence of a deliberate internet marketing strategy or because of deficient implementation." />	
+</head>
+<body>
+<div class="animsition">
+    <script>
+        //jssor responsive slider
+        var _CaptionTransitions = [];
+        _CaptionTransitions["CLIP|L"] = { $Duration: 600, $Clip: 1, $Easing: $JssorEasing$.$EaseInOutCubic };
+        _CaptionTransitions["ZMF|10"] = { $Duration: 600, $Zoom: 11, $Rotate: 1, $Easing: { $Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInExpo }, $Opacity: 2, $Round: { $Rotate: 0.8} };
+        _CaptionTransitions["ZMF|10"] = { $Duration: 600, $Zoom: 11, $Easing: { $Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 };
+        _CaptionTransitions["FLTTR|R"] = { $Duration: 600, x: -0.2, y: -0.1, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseInWave }, $Opacity: 2, $Round: { $Top: 1.3} };
+    </script>
+   <div class="container miujsag">
+	  <div class="topBorder">
+	  </div>
+	  <div class="leftBorder">
+	  </div>
+	  <div class="rightBorder">
+	  </div>
+	  <div class="bottomBorder">
+	  </div>
+      <div class="row ujsagCim">
+		<div class="mypane ujsagneve jtextfill clearfix">
+			<img alt="logo" src="/images/square-logo.png" class="logol">
+			<img alt="logo" src="/images/square-logo.png" class="logor">
+			<div class="titleContainer">
+				<span>
+					THE&nbsp;WEB&nbsp;JOURNAL
+				</span>
+				<strong>
+					 Daily&nbsp;News 
+				</strong>
+			</div>
+		</div>		
+      </div>
+	  <div class="line eltolt">
+	  </div>
+      <div class="row ujsagDetails">
+	    <div class="mypane col-lg-3 volno">
+			Vol no. 
+2547	
+		</div>
+		<div class="mypane col-lg-6">
+			<span id="datumka">2021</span>
+		</div>
+		<div class="mypane col-lg-3 horizontalLogoContainer">
+			<img alt="logo" class="logoja" src="/images/wwweeebbb-horizont.png">
+		</div>
+	  </div>
+	  <div class="line">
+	  </div>
+      <div class="row">
+		<div class="mypane col-lg-8 jobbContent">
+			<h1 class="centeredText">Ruwix Services&nbsp;SRL</h1>
+			<h2 class="centeredText">Internet Marketing Agency serving Millions each&nbsp;Month</h2>
+			
+			<div class="wrapSlider clearfix">
+				<div id="slider1_container">
+					<!-- Slides Container -->
+					<div id="wrapSlides" u="slides">
+						<div><img u="image" src="/images/landscape/00.png" alt="internet marketing consultancy" />
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:20px;top:150px;width:150px;">Internet</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:150px;top:180px;width:150px;">Marketing</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:270px;top:210px;width:150px;">Consultancy</div>
+						</div>
+						<div><img u="image" src="/images/landscape/04.png" alt="creative website" />
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:50px;top:210px;width:110px;">Creative </div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:230px;top:210px;width:120px;">Website </div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:380px;top:210px;width:130px;">Design</div>
+						</div>
+						<div><a href="/link/?offer=30-1000-1-1-1-1-30-1-0"><img u="image" src="/images/landscape/03.png" alt="mobile ready websites" /></a>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:80px;top:210px;width:110px;">Link</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:185px;top:210px;width:120px;">Price</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:300px;top:210px;width:130px;">Calculator</div>
+						</div>
+						<div><img u="image" src="/images/landscape/02.png" alt="seo" />
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:40px;top:210px;width:110px;">Search</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:180px;top:210px;width:120px;">Engine</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:320px;top:210px;width:130px;">Optimisation</div>
+						</div>
+						<div><img u="image" src="/images/landscape/07.png" alt="web analytics" />
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:50px;top:210px;width:110px;">Web</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:140px;top:210px;width:120px;">Analytics</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:340px;top:210px;width:130px;">Reports</div>
+						</div>
+						<div><img u="image" src="/images/landscape/06.png" alt="social media marketing" />
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:50px;top:210px;width:110px;">Social</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:200px;top:210px;width:120px;">Media</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:350px;top:210px;width:130px;">Marketing</div>
+						</div>
+						<div><img u="image" src="/images/landscape/08.png" alt="email marketing" />
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:100px;top:210px;width:110px;">Email</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:230px;top:210px;width:120px;">Marketing</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:380px;top:210px;width:130px;"> </div>
+						</div>					
+						<div><img u="image" src="/images/landscape/05.png" alt="long term relationship" />
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:60px;top:210px;width:110px;">Long</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:170px;top:210px;width:120px;">Term</div>
+							<div class="slideCaption" u="caption" t="ZMF|10" style="left:290px;top:210px;width:130px;">Relationship</div>
+						</div>
+					</div>
+					<!-- Trigger -->
+				</div>
+				<!-- Jssor Slider End -->		
+			</div>
+		    <div class="row jobbFelso">
+				<div class="mypane col-lg-4">
+					<h2>About Our Company</h2>
+					<p>Ruwix Services SRL manages high traffic websites in various domains. Our network of online tools, blogs, portals and other free resources are used by millions each&nbsp;month.</p>
+					<p>We are busy developing our own projects but we also like to help others.</p>
+					<div class="centeredText">
+						<img alt="contact" src="/images/ruwix-services-srl.png">
+					</div>
+					<h2>How Can We Help You?</h2>
+					<p>These days every company needs strong online presence, but unfortunately going online and maintaining the site is not as straight forward as most people would expect. Without the necessary experience and knowledge your website won't have any visitors despite all the money and effort you have invested.</p>
+					<p>Ruwix Services LTD is an internet marketing company that can help you put your online business on tracks.</p>
+					
+					<h3>Consultancy</h3>
+					<p>Whatever your plan is we would be happy to offer you our expertise.</p>
+					<p>We can develop an internet marketing strategy that actually works and that will be profitable. We can manage your online project including web design and development, domain registration and hosting, content building, search engine optimization, maintenance, monitoring and further optimization.</p>
+					
+					<h3>Link Exchange</h3>
+					<p>Let's help each other! Just like your site, our sites also need some boost. We would be happy to exchange links and promote each others platforms in any other way. Reach out and let us know what you've&nbsp;got.</p>
+				</div>
+				<div class="mypane col-lg-4">
+					<a class="sectionTitle" href="/link/">
+						Links vs. Google Ads &gt;&gt;
+					</a>
+					<a class="sectionTitle" href="/link/?offer=30-1000-1-1-1-1-30-1-0">
+						Link Price Calculator &gt;&gt;
+					</a>
+					<p>Write a good quality article for one of our blogs to promote your business with a permanent link. Make sure that the article fulfills the following conditions:</p>
+					<p>- Informative topic that offers value to our readers and it doesn't scream that it's just an ad.</p>
+					<p>- It must be at least 400 words long, original content (not copied from another website).</p>
+					<p>- Up to 5 copyright-free images.</p>
+					<p>Please contact us for prices and for approval of your topic.</p>
+					<h3>Link Advertising</h3>
+					<p><a href="/link/">Link building</a> is the first step of driving traffic to your site and convincing Google that it should take your website seriously. Having strong links from high-traffic sites is one of the most important search engine ranking factors.</p>
+					
+					<h3>FAQ: How much for a link/banner?</h3>
+					<p>I can give you a good offer if you let me know what you would like to advertise, what's your target audience and budget. </p>
+					<p>The price of a link starts from $100 and it depends on many factors: <br />
+					<strong>Traffic</strong> &ndash; We can tell the traffic value of a page knowing its daily visitors and the RPM (revenue per thousand impressions). Links on high traffic pages cost more but even a low traffic page can give you a good link juice. One thing is sure: this will cost you less than any ad service like AdWords because here is no mediator and <a href="https://disableadblock.com/" rel="nofollow">ad&nbsp;blockers</a> don't affect it negatively.<br />
+					<strong>Placement &amp; visibility</strong> &ndash; header banners get more hits and cost more than a text links in the footer. The value of a banner increases with its size and&nbsp;visibility.<br />
+					<strong>Duration</strong> &ndash; Short term links cost less but I can give a better offer on the long term. <br />
+					<strong>Relevancy</strong> &ndash; Your link has to be relevant to the page where we add it, otherwise it can hurt the ranking of our own&nbsp;pages.<p>
+				</div>
+				<div class="mypane col-lg-4 callToActions">
+					<h2>Company Information</h2>
+					<p><strong>Address:</strong> Tirgu Mures, Str. Navodari nr. 18, Judetul&nbsp;Mures, Romania</p>
+					<p><strong>CUI: </strong>37189732</p>
+					<p><strong>VAT: </strong>RO37189732</p>
+					<p><strong>Pay:</strong> <a href="https://www.paypal.com/paypalme/ruwix" target="_blank">PayPal.me/Ruwix</a></p>
+					
+					<h2>Contact Us!</h2>
+					<p class="centeredText">
+						<img alt="contact" width="200" src="/images/call-calltoaction.png">
+					</p>
+					<p>Do you need a web page or guidance on the bumpy road of the internet? Are you thinking about hiring us?</p>
+					
+					<div id="contactus">
+						<div class="formKontener hideWhenSumbit">
+							<img src="/images/captcha.png" alt="robot captcha" /><br />
+							<label for="captcha">Enter here the words above:</label><br>
+							<input type="text" name="captcha" id="captcha" value="" maxlength="50"><br>
+							<div id="captchaError">
+							</div>
+						</div>
+						<div class="formKontener hideWhenSumbit">
+							<label for="email">Your Email Address:</label><br>
+							<input type="text" name="email" id="email" value="" maxlength="50"><br>
+						</div>
+						<div class="formKontener hideWhenSumbit">
+							<label for="message">Message:</label><br>
+							<textarea rows="10" cols="50" name="message" id="message"></textarea>
+						</div>
+						<div class="formKontener hideWhenSumbit">
+							<span class="buttonka" id="contactSubmit">Submit</span>
+						</div>
+						<div id="contactDetails">
+						</div>
+					</div>
+					
+					<h3>Our Portfolio</h3>
+					<p>We manage <strong>25 websites</strong>, including:</p>
+					<p><strong><a href="https://htmlg.com/" target="_blank" rel="external nofollow">HTMLg.com</a></strong> &ndash; Professional web content composer with premium features.</p>
+					<p><strong><a href="https://ruwix.com/" target="_blank" rel="external nofollow">Ruwix.com</a></strong> &ndash; World leading Rubik's Cube and twisty puzzle portal.</p>
+					<p><strong><a href="https://html-online.com/" target="_blank" rel="external nofollow">HTML-Online.com</a></strong> &ndash; Browser HTML editor and web development blog.</p>
+					<p><strong><a href="https://html-css-js.com/" target="_blank" rel="external nofollow">HTML-CSS-JS.com</a></strong> &ndash; Web developer tool collection.</p>
+					<p><strong><a href="https://texteditor.com/" target="_blank" rel="external nofollow">TextEditor.com</a></strong> &ndash; Online text converters.</p>
+					<p><strong><a href="https://pranx.com/" target="_blank" rel="external nofollow">Pranx.com</a></strong> &ndash; Online pranks.</p>
+				</div>
+		    </div>
+			<p class="centeredText noUnderline">
+				<a href="https://www.romanian-companies.eu/ruwix-services-srl-37189732/" target="_blank" rel="external nofollow">Romanian Companies.eu</a> | 
+				<a href="https://termene.ro/firma/37189732-RUWIX-SERVICES-SRL" target="_blank" rel="external nofollow">Termene.ro</a> | 
+				<a href="https://www.risco.ro/verifica-firma/ruwix-services-cui-37189732" target="_blank" rel="external nofollow">Risco.ro</a> | 
+				<a href="https://www.listafirme.ro/ruwix-services-srl-37189732/" target="_blank" rel="external nofollow">Lista Firme.ro</a>
+			</p>
+			<div class="gap10"></div>
+			<div class="line"></div>			
+			<h2 class="centeredText">Online <a href="https://rubiks-cube-solver.com/" target="_blank" title="Rubik's Cube solver program" rel="nofollow">Rubik's&nbsp;Cube solver</a>?</h2>
+			<div class="centeredText bigText">This. Is. Craaaaazy!</div>
+			<h2 class="centeredText">It's incredible what websites can do these days...</h2>
+			<div class="row">
+				<div class="mypane col-lg-4">
+					<h3>Article by Ferenc&nbsp;Denes</h3>
+					<p>A little, colored cube that has fascinated and challenged millions of people for more than 30 years now. Many of us tried to untangle this puzzle but just a few succeeded. It's magic made it the World's best selling puzzle toy. You have guessed it: I'm talking about the Rubik's Cube!</p>
+					<p>You might think that it dominated only the 80's but the truth is that it has just started to conquer the World. Thanks to the advanced 3D printing all kinds of custom built twisty puzzles have invaded the market. Besides the classic 3x3x3 Rubik's Cube you can buy pyramid, dodecahedron, star, sphere and all kind of funny shaped twisty, sliding and folding puzzles, having gears, holes, magnets and many more interesting mechanisms. The largest order Rubik's Cube has 33x33x33 pieces and it entered the Guinness World Records. </p>
+				</div>
+				<div class="mypane col-lg-4">
+					<p>The possibilities are endless. Rubik's fans have the opportunity to challenge their speed on cubing competitions governed by the World Cube Association. The events include solving the puzzles with one hand, with feet and even blindfolded. The current World Record for solving the Rubik's Cube is not more than 5.55 seconds. I'm curious who is going to break this.
+					</p>
+					
+					
+					<p>Let's admit it, the Rubik's Cube is far too complicated for an average human being. Even if you're a smart guy you can only solve one face because there are too many steps to foresee. Even the inventor of the puzzle, Rubik Erno and his team has spent approximately one month to figure out a method that works. Now we are in a lucky situation because there are many solution methods available for beginners and speedcubers too. You just have to learn a couple solution algorithms and with a little practice you can easily become the smart one in in your&nbsp;crew.</p>
+					
+				</div>
+				<div class="mypane col-lg-4">
+					<a id="animRubik" href="https://rubiks-cube-solver.com/" target="_blank" rel="nofollow">
+						<img alt="animated Rubiks Cube" src="/images/rubik-animation.gif" />
+					</a>
+					<h3>Let the Computer do the Thinking!</h3>
+					<p>I'm going to tell you a secret. You don't need to learn anything because there's a free online Rubik's Cube solver that does the thinking for you. Just enter the colors of your scrambled puzzle, hit the Solve button and let the program guide you through the solution. It will show you a string of rotations which you have to execute in order to fix your cube. You can give it a try on RUWIX.COM or simply click the image above. </p>
+					<p>I know it seems incredible but it actually works.</p>
+				</div>
+			</div>
+			
+			<div class="line"></div>
+						
+			<div class="sectionTitle">
+				Word Documents to HTML
+			</div>
+			
+			<h2 class="centeredText">Why haven't I heard about <a href="https://html-cleaner.com/" target="_blank" title="Free Online HTML Composer and Word to HTML Converter" rel="nofollow">the HTML&nbsp;Cleaner</a> before?</h2>
+			<div class="gap10">
+			</div>
+			<div class="row">
+				<div class="mypane col-lg-6">
+					<h2>A free online tool to make HTML code composing a piece of cake...</h2>
+					<p>You don't have to be an IT guy to tell what is the HTML code. Everyone who has ever composed content for the web knows that this is the language of the Internet.</p>
+					<p>To write a proper code you should spend time to learn the tags and CSS styling. There are many tools to help you compose and lay out your articles but most of them are not used correctly or they are too chaotic. </p>
+					<p>I can recommend the BEST solution for both beginner and experienced HTML composers. A free online tool which has all features to fulfill the needs of any web publisher: HTML-Cleaner.com.</p>
+					<p>On the home page of this website you can see two text fields next to each other where you can compose the content. </p>
+				</div>
+				<div class="mypane col-lg-6">
+					<p>The one on the left is a full-featured rich text editor, while on the right you can see the source code of the document. Whichever you're editing the changes are applied to the other immediately in real time. When the site loads the very first time in your browser the text boxes will be populated with an editable demo text which helps you experiment with the editor.</p>
+					
+					<p>We know it's a bad habit but many people use Microsoft Word or some other WYSIWYG editor to compose the web content which was not originally designed for this. Just examine the source code of a Word document saved as HTML and you will see many inline styles and a very messy code. Before you publish such documents on the web make sure you clean them properly.</p>
+					<p>HTML-Cleaner.com helps you to convert any website, document, Excel, PDF, presentation to a nice and tidy code. Just paste the content in the text editor, set up the preferences and click the cleaning button to see the magic!<br />&nbsp;
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	    <div class="mypane col-lg-4 balContent">
+			<div class="sectionTitle">Employment Opportunities!</div>
+			<div class="row">
+				<div class="mypane col-lg-6">
+					<h4 class="borderRightP">Copywriter Wanted!</h4>
+					<p class="borderRightP">We are looking for a home based copywriter with sharp writing skills. Your job will be to fill our websites with SEO-friendly and high quality content. We're looking for 3+ years copywriting with a deep experience across a variety of platforms and the ability to work with HTML&nbsp;code.</p>
+				</div>
+				<div class="mypane col-lg-6">
+					<h4>Full Stack Developer</h4>
+					<p>An ambitious web developer is needed in our team with strong knowledge and experience in both frontend and backend. <a href="https://html-css-js.com/" target="_blank" rel="nofollow">HTML, CSS, JS</a>, PHP, SQL, SEO and video editing. You will build pretty websites (like this one) / online tools and write English articles about web development. Remote&nbsp;position.</p>
+				</div>
+				<div class="gap10">
+				</div>
+				<div class="mypane col-lg-12">
+					<strong>Please fill the contact form below to apply!</strong>
+				</div>
+			</div>
+			
+			<div class="sectionTitle">For Sale / Rent</div>
+			<div class="row fullFooter">
+				<div class="col-lg-6">
+					<p class="borderRightP">300x300 pixel <strong>sidebar banner</strong> available for rent on all pages of an educational blog with 1.2&nbsp;million monthly sessions. <br /><strong class="block">- $350 / Month</strong></p>
+					<p class="separator borderRightP">~</p>
+					<p class="borderRightP">Write a <strong>guest post</strong> with your permanent link for our blog with 20K daily visitors.<br />
+					<strong class="block">- $250</strong></p>
+				</div>
+				<div class="col-lg-6">
+					<p class="">For sale a <strong>link</strong> on an existing web page. Multiple websites available. Temporary or permanent.<br />
+					<strong class="block">- negotiable</strong></p>
+					<p class="separator">~</p>
+					<p class="">Subscribe for an online <a href="https://htmlg.com/html-editor/" target="_blank" rel="nofollow"><strong>HTML Editor</strong></a>  membership and make content composing a piece of cake. <a href="https://htmlg.com/license/" target="_blank" rel="nofollow">Please find more details&nbsp;here</a>.<br />
+					<strong class="block">- from $27</strong></p>
+				</div>						
+			</div>
+			
+			<div class="sectionTitle">Conscious Internet Marketing</div>			
+			<h2 class="centeredText">Have a Well Planned Strategy,<br />Not Just a Simple&nbsp;Website!</h2>
+			<div class="row">
+				<div class="mypane col-lg-12">
+					<p><img alt="mobile revolution" width="205" class="imageright" src="/images/mobile-revolution.png" />Too&nbsp;many&nbsp;digital projects fail because of the absence of a deliberate internet marketing strategy or because of deficient implementation.</p>
+					<p>Every website owner should be conscious about what they expect from their website and they should carefully plan a strategy about how to reach their goal. Many business owners want to run a website but they don't recognize that they do have to spend time and energy to keep the website updated (content, security, technology etc.). If they don't have the possibility to do so then they must hire a professional to take care of the online presence of their company. It's easy to tell if a website is updated and maintained regularly. Website owners just expect the boom and they hesitate to invest in a well planed Internet Marketing Strategy.</p>
+					<p>In the case of a webshop the owners usually want to bring as many visitors to their website as possible and convince them to do place an order. A hotel's website can be considered successful if a high percentage of the visitors books a room. Other websites just want to get their visitors to subscribe to a newsletter, to like their Facebook page, to donate money, to click on a PPC banner etc. The conversion goals vary but they are still similar: bring as many visitors to the site as possible and try to convince most of them to act like we want. Attracting visitors to your website is just the first step, you must also convince them to do what you want them to do. </p>
+					<p>Every website must be designed for maximum conversion.</p>
+					
+					<h2 class="centeredText">Follow These Steps:</h2>
+					<h3>First step: Research</h3>
+					<p>Before jumping into the design stage we must look around and analyze our competition and figure out how we can bring out the most of our budget. If we start off on the wrong path we might never recover our disadvantage. We must choose wisely the competition area, our domain name, competitive keywords etc.</p>
+					<p>Fortunately we have the right tools to spy out almost everything about your competition and we can advise you how to use this data effectively!</p>
+					
+					<h3>Second step: Plan and Design</h3>
+					<p>When mentioning Website Design most people only think about the look of the website. In fact this is only secondary. First we have to design the user experience to make sure the visitor finds the way to execute our goal easily. After we have assured user satisfaction improving the usability we can move forward to design the site to match the company image. In the mobile era we must make sure the design is responsive and it's easy to use on mobile devices and every browser is supported.</p>
+					
+					<h3>Third step: Implement</h3>
+					<p>The web technology is an ever evolving science and we must keep up to date with the latest trends. </p>
+					
+					<h3>Fourth step: Analyze</h3>
+					<p>The graphs, numbers and tables of your Analytics tell you a story about your website and it's essential to learn to read these. They tell you exactly what are the advantages and problems of your website and which are the factors you should improve. Comparing your website with your competitor's analytics and strategy can be the key to success and to take over the lead.</p>
+				</div>
+			</div>
+			
+			<div class="sectionTitle">Joke of the day</div>
+		    <div class="row">
+				<div class="jokeInner">
+					<p class="centeredText">
+						<img width="291" alt="web designer spider" src="/images/web-design-spider.png" /><br />
+						Your CV is impressive but do you have any experience of&nbsp;web&nbsp;design?
+					</p>
+				</div>
+			</div>			
+			<div class="sectionTitle">WWWEEEBBB.com</div>
+			<div class="centeredText">
+				<img alt="qr code" style="vertical-align: middle;" src="/images/qr-code.png">
+				<img alt="wwweeebbb logo" style="vertical-align: middle;" src="/images/square-logo.png">
+			</div>
+		</div>
+	  </div>
+	  <div class="line">
+	  </div>
+		<footer>  
+		  <div class="row">
+			<div class="mypane col-lg-8">
+					We use cookies on this website to collect anonymous visitor analytics.<br />Please leave the website if you don't wish to allow them.<br />&copy; <span id="thisYear">2018</span> WWWEEEBBB.COM | <a href="/amp.html">Mobile site</a>
+			</div>
+			<div class="mypane col-lg-4">
+				<div class="addThisButts">
+					<div class="addthisButtons">
+						<ul>
+							<li><a title="Share on Facebook" class="sharefb" target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwwweeebbb.com">Facebook</a></li>
+							<li><a title="Tweet this!" class="sharetw" target="blank" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fwwweeebbb.com&source=webclient">Twitter</a></li>
+							<li><a title="Share via LinkedIn" class="shareli" target="blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://wwweeebbb.com&title=WWWEEEBBB&summary=WWWEEEBBB&source=">LinkedIn</a></li>
+							<li><a title="Share via Pinterest" class="sharepi" target="blank" href="https://pinterest.com/pin/create/button/?url=https://wwweeebbb.com/images/doc-to-html-cleaner.png&media=HTML%20Cleaner&description=Convert%20your%20dirty%20code%20to%20a%20clean%20HTML%20source%20with%20this%20free%20online%20tool">Pin it</a></li>
+							<li><a title="Send to a friend in email" class="sharema" target="blank" href="mailto:?Subject=Html%20Cleaner&Body=Hi%21%0ACheck%20out%20the%20online%20HTML%20code%20cleaner:%20https://wwweeebbb.com"></a></li>
+						</ul>
+					</div>
+				</div>			
+			</div>
+			<div class="clearboth">
+			</div>
+		  </div>	  
+		</footer>
+		<img class="folding" alt="old newspaper folding corner" src="/images/folding.png" />
+    </div>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59072531-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-59072531-1');
+	</script>
+</div>
+</body>
+</html>

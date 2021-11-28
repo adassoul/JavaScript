@@ -1,0 +1,257 @@
+#sticky.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.filters {
+	background-color: #CE5937;
+	padding: 10px;
+}
+.filters ul {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+.filters li {
+    display: inline-block;
+    padding: 2px 9px;
+    cursor: pointer;
+    background: rgba(255,255,255,0.5);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #222;
+    margin-right: 5px;
+    border: 1px solid #555;
+}
+.filters li:hover {
+	background: rgba(255,255,255,0.8);
+}
+.filters li.active {
+	background-color: #FFF !important;
+}
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list > li {
+	border-bottom: 1px solid #ddd;
+	padding: 0;
+}
+.tagName {
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	line-height: 20px;
+	padding: 7px 15px 4px 55px;
+}
+.tagName:hover {
+	background-color: #FEE !important;
+}
+#searchList {
+	margin-bottom: 30px;
+}
+.tagEplained {
+	padding: 10px 30px;
+}
+.tagExample {
+	border-top: 1px solid #ddd;
+	padding: 10px 30px;
+	font-size: 15px;
+}
+.sbs .tagExample pre {
+    clear: both;
+    float: left;
+    min-height: 150px;
+    width: 60%;
+    margin: 0 0 15px;
+}
+.sbs .tagExample .preview pre {
+    float: none;
+    width: auto;
+    min-height: 10px;
+}
+.sbs div.preview {
+    float: right;
+    width: 33%;
+    margin: 0;
+    min-height: 130px;
+}
+
+.clearfix:after, .tagExample:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix, .tagExample { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix, * html .tagExample { height: 1%; }
+.clearfix, .tagExample { display: block; }
+/* close commented backslash hack */
+
+
+li.avoid {
+    background-image: url(avoid.png);
+    background-position: right 30px;
+    background-repeat: no-repeat;
+}
+li.html5 .tagEplained {
+    background: url("/images/html-shield.png") 25px 14px no-repeat transparent;
+    padding-left: 60px;
+}
+a.inner {
+	cursor: pointer !important;
+}
+.tagObsolete {
+	background: url("/images/warning.png") no-repeat 30px 0px transparent;
+	color: #CE5937;
+	font-weight: bold;
+	padding-left: 75px;
+	min-height: 45px;
+	font-size: 20px;
+}
+.tagObsolete a {
+	color: #000;
+	cursor: pointer;
+}
+.smalltext {
+	font-size: 0.8em;
+}
+input.search {
+	border: 1px solid #aaa;
+	font-size: 25px;
+	padding: 4px 10px;
+	color: #333;
+	border-radius: 6px;
+	margin: 0 20px;
+}
+
+.tagEplained, .tagObsolete, .tagExample {
+	display: none;
+}
+.openItem .tagEplained, .openItem .tagObsolete, .openItem .tagExample {
+	display: block;
+}
+li.openItem {
+    border-left: 5px solid #DDD;
+    border-right: 5px solid #DDD;
+    border-bottom: 5px solid #DDD;
+    margin: 0px 20px;
+    background-color: #F6F6F6;
+}
+.openItem .tagName {
+	padding-left: 30px;
+}
+.openItem .tagName{
+	background: url('closex.png') top right no-repeat #DDD;
+}
+pre {
+	font-size: 14px !important;
+	margin: 0px 10px 10px;
+	padding: 2px 15px;
+	border: none;
+	cursor: pointer;
+	overflow-x: auto;
+}
+pre:hover {
+}
+.preview input[type="text"], .preview input[type="number"] {
+	width: 90px;
+}
+.preview {
+    background-color: #FFF;
+    margin: 0 10px;
+    padding: 0 1% 25px;
+}
+.tagExample hr {
+	margin: 10px 0;
+}
+
+.wrapPreviews {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px 20px;
+	background-color: #FFF;
+	border-top: 1px solid #ddd;
+	box-shadow: 0 0px 20px #333;
+}
+
+
+.preToEditorWrap {
+	display: none;
+	height: 0;
+	overflow: visible;
+	position: relative;
+}
+.noPencil .preToEditorWrap {
+	display: none !important;
+}
+a.preToEditor {
+    border: 1px solid #bbb;
+    position: absolute;
+    background: #FFF;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 17px;
+    width: 17px;
+    line-height: 17px;
+    cursor: pointer;
+    text-align: center;
+    left: -10px;
+	top: -6px;
+}
+a.preToEditor:hover {
+	background: #CE5937;
+	border: 1px solid #CE5937;
+	color: #fff;
+	font-size: 17px;
+}
+.tagExample pre:hover {
+	background-color: #fff6f6 !important;
+}
+
+blockquote {
+    background: url(quote.png) 10px 10px no-repeat transparent;
+    border: 2px solid #B2B2B2;
+    margin: 15px auto;
+    max-width: 290px;
+    font-size: 1.3em;
+    padding: 10px 10px 10px 78px;
+    line-height: 1.2em;
+}
+button {
+	margin: 10px;
+}
+.footer {
+	padding-bottom: 330px !important;
+}
+
+
+@media screen and (max-width: 1111px) { 
+	.sbs .tagExample pre {
+		clear: both;
+		float: none;
+		width: auto;
+		margin: 0 0 15px;
+		min-height: auto;
+	}
+	.sbs div.preview {
+		float: none;
+		width: auto;
+		display: inline-block;
+		margin: 0;
+		min-height: auto;
+	}
+
+
+}

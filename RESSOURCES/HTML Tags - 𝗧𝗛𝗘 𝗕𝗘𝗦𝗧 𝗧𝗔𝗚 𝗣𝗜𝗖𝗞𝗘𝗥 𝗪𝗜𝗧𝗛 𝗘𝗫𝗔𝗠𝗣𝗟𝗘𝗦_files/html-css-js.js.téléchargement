@@ -1,0 +1,167 @@
+var i=0;
+$(document).ready(function () {
+	var loc = window.location.href+'';
+	if (loc.indexOf('http://')==0){
+		window.location.href = loc.replace('http://','https://');	// https redirect
+	}
+	$("#tabContainer").html('<div id="tabContainer"><div class="tabz"><a href="/html/" class="html">HTML</a><a href="/css/" class="css">CSS</a><a href="/js/" class="js">JS</a></div><div class="subtabz"><nav><ul class="html"><li><a rel="nofollow" href="https://htmlg.com/html-editor/">Editor</a></li><li><a href="/html/tags/">Tags</a></li><li><a rel="nofollow" href="https://htmlcheatsheet.com/">CheatSheet</a></li><li><a href="/html/character-codes/">Characters</a></li><li><a href="/html/generator/">Generators</a></li><li><a rel="nofollow" href="https://html5-templates.com/">Templates</a></li><li><a rel="nofollow" href="https://html-online.com/articles/category/html/">Blog</a></li><li><a href="/html/tutorial/">Tutorial</a></li><li><a href="/html/links/">Links</a></li></ul><ul class="css"><li><a href="/css/editor/">Editor</a></li><li><a rel="nofollow" href="https://htmlcheatsheet.com/css/">Cheat Sheet</a></li><li><a href="/css/generator/">Generators</a></li><li><a rel="nofollow" href="https://html-online.com/articles/category/css/">Blog</a></li><li><a href="/css/links/">Links</a></li></ul>	<ul class="js"><li><a href="/js/editor/">Editor</a></li><li><a href="/js/compressor/">Compressor</a></li><li><a rel="nofollow" href="https://htmlcheatsheet.com/js/">Cheat Sheet</a></li><li><a rel="nofollow" href="https://htmlcheatsheet.com/jquery/">jQuery</a></li><li><a rel="nofollow" href="https://html-online.com/articles/category/javascript/">Blog</a></li><li><a href="/js/links/">Links</a></li></ul></nav></div></div>');
+	
+	$("#cssGeneratorMenu").html('<li><a href="/css/generator/gradient/">Gradient</a></li><li><a href="/css/generator/box-shadow/">Box Shadow</a></li><li><a href="/css/generator/text-shadow/">Text Shadow</a></li><li><a href="https://rgbcolorcode.com/" rel="nofollow">Color</a></li><li><a href="/css/generator/font/">Font</a></li><li><a href="https://divtable.com/table-styler/" rel="nofollow">Table</a></li><li><a href="/css/generator/column/">Column</a></li><li><a href="/css/generator/border-outline/">Border</a></li><li><a href="/css/generator/border-radius/">Border Radius</a></li><li><a href="/css/generator/transform/">Transform</a></li><li><a href="/css/generator/background/">Background</a></li>');
+	
+	$("#footerContent").html('<a href="/#about">About Us</a> &nbsp;|&nbsp; <a href="/sitemap/">Sitemap</a> &nbsp;|&nbsp; <a href="/terms-privacy/">Terms &amp; Conditions, Privacy Policy</a> &nbsp;|&nbsp; <img src="/images/footnote.png" alt="footnote" /> &nbsp;|&nbsp; We use cookies to improve the user experience. <br />&copy;html-css-js.com &nbsp;|&nbsp; <img class="footericon" src="/images/og.jpg" alt="html css js" />');
+		
+	$("#hcjCookies").html('<a id="cookieButton">OK</a><div>Our&nbsp;website is&nbsp;using&nbsp;cookies. <a href="/terms-privacy/#cookies">More&nbsp;details</a></div>');
+	
+	$("#lessonsList").html('<h3>HTML Tutorial</h3><ul><li><a href="/html/tutorial/">Intro</a></li><li><a href="/html/tutorial/html-tags.php">1. Tags</a></li><li><a href="/html/tutorial/html-tag-attributes.php">2. Attributes </a></li><li><a href="/html/tutorial/heading-paragraph-comment-list.php">3. Important Tags</a></li><li><a href="/html/tutorial/html-link-anchors.php">4. Links</a></li><li><a href="/html/tutorial/html-images.php">5. Images</a></li><li><a href="/html/tutorial/html-table.php">6. Tables</a></li><li><a href="/html/tutorial/html-forms.php">7. Forms </a></li><li><a href="/html/tutorial/text-formatting.php">8. Text Formatting </a></li><li><a href="/html/tutorial/special-characters.php">9. Characters </a></li></ul>');
+	
+	$("a").each(function() {
+		/*
+		if ((window.location.pathname.indexOf($(this).attr('href'))) > -1) {
+			$(this).addClass('active');
+		}
+		*/
+		if ((window.location.pathname == $(this).attr('href'))) {
+			$(this).addClass('active');
+		}
+	});
+	if ((window.location.pathname.indexOf("html")) == 1) {
+		$('body').addClass('htmlpage');
+	}
+	if ((window.location.pathname.indexOf("css")) == 1) {
+		$('body').addClass('csspage');
+	}
+	if ((window.location.pathname.indexOf("js")) == 1) {
+		$('body').addClass('jspage');
+	}
+    $(".tabz .html").mouseover(function(event) {
+        $("#tabContainer").addClass("htmlhovered");
+        $("#tabContainer").removeClass("csshovered");
+        $("#tabContainer").removeClass("jshovered");
+    });
+    $(".tabz .css").mouseover(function(event) {
+        $("#tabContainer").removeClass("htmlhovered");
+        $("#tabContainer").addClass("csshovered");
+        $("#tabContainer").removeClass("jshovered");
+    });
+    $(".tabz .js").mouseover(function(event) {
+        $("#tabContainer").removeClass("htmlhovered");
+        $("#tabContainer").removeClass("csshovered");
+        $("#tabContainer").addClass("jshovered");
+    });
+    $("#tabContainer").mouseleave(function(event) {
+        $("#tabContainer").removeClass("htmlhovered");
+        $("#tabContainer").removeClass("csshovered");
+        $("#tabContainer").removeClass("jshovered");
+    });	
+	
+	
+	$(".subtabz a").each(function() {
+		//if ($(this).attr("href") == (window.location.pathname)) {
+		if (window.location.pathname.indexOf($(this).attr("href")) != -1) {
+			$(this).addClass('activeMenuItem');
+		}
+	});
+	
+	$("ul.generatorList a").each(function() {
+		if ($(this).attr("href") == (window.location.pathname)) {
+			$(this).addClass('activeGenerator');
+		}
+	});	
+	
+    $('.shares a').each(function() {
+      var value = $(this).attr('href');
+      console.log(value);
+      $(this).attr('href', value.replace('https://html-css-js.com/',$(location).attr('href')));
+    });
+	
+	$(".sendToSidebar").each(function() {                // send to sidebar
+		$(this).appendTo('#sidebarContent');
+	});	
+	
+});
+
+// Cookie Compliancy BEGIN
+/*
+function GetCookie(name) {
+  var arg=name+"=";
+  var alen=arg.length;
+  var clen=document.cookie.length;
+  var i=0;
+  while (i<clen) {
+	var j=i+alen;
+	if (document.cookie.substring(i,j)==arg)
+	  return "here";
+	i=document.cookie.indexOf(" ",i)+1;
+	if (i==0) break;
+  }
+  return null;
+}
+function testFirstCookie(){
+	var offset = new Date().getTimezoneOffset();
+	if ((offset >= -180) && (offset <= 0)) { // European time zones
+		var visit=GetCookie("cookieCompliancyAccepted");
+		if (visit==null){
+		   $("#hcjCookies").fadeIn(400);	// Show warning
+	   } else {
+			// Already accepted
+	   }		
+	}
+}
+$(document).ready(function(){
+    $("#cookieButton").click(function(){
+		console.log('Understood');
+		var expire=new Date();
+		expire=new Date(expire.getTime()+7776000000);
+		document.cookie="cookieCompliancyAccepted=here; expires="+expire+";path=/";
+        $("#hcjCookies").hide(400);
+    });
+	testFirstCookie();
+});
+*/
+// Cookie Compliancy END
+
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+	if (window.innerWidth < 1000) {
+		$(".wrapPreviews").addClass("fullSizeWysiwyg");
+		$("#viewSwitch div").removeClass("active");
+		$("#bigWysiwyg").addClass("active");
+	}
+    $("#bigWysiwyg").click(function(event) {
+		$(".wrapPreviews").addClass("fullSizeWysiwyg");
+		$("#viewSwitch div").removeClass("active");
+		$(this).addClass("active");
+	});
+    $("#smallWysiwyg").click(function(event) {
+		$(".wrapPreviews").removeClass("fullSizeWysiwyg");
+		$("#viewSwitch div").removeClass("active");
+		$(this).addClass("active");
+	});	
+    $(".listLayout").click(function(event) {
+        $('.linkListView a').removeClass('active');
+        $(this).addClass('active');
+        $('.bannerLinks').removeClass('showThumbs');		
+	});
+    $(".thumbnailLayout").click(function(event) {
+        $('.linkListView a').removeClass('active');
+        $(this).addClass('active');
+        $('.bannerLinks').addClass('showThumbs');		
+	});
+	
+	
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
